@@ -63,8 +63,8 @@ public class ArbolGeneral {
     
     //----------------------------------------------------------------------------------------------------------------------------------------------------------
     private NodoGeneral buscarNodoRe(String path , String igual) {  // version 1 de buscar Nodo con RECURCIBIDAD
-        int tam = 0;
-        int tam2 = 0;
+        int tam = 0;                                                //SE TIENE QUE MANDAR 2 VECES EL PATH A ESTE METODO
+        int tam2 = 0;   
 
         // -> /F/W/M/R
         path = path.substring(1);
